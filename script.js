@@ -1,5 +1,9 @@
 
+function starConfetti(event) {
+    event.preventDefault(); // Prevents navigating immediately
+    launchConfetti();
 
+}
 function startConfetti(event) {
     event.preventDefault(); // Prevents navigating immediately
     launchConfetti();
